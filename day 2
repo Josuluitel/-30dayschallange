@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+<title>food menu</title>
+	</head>
+  <body>
+      <h1 align="center"><b> food menu </b>
+      
+      <h1 style="color:royalblue;">
+
+       </h1> 
+       <h1 onchange="3"> </h1>
+   </h1>
+      <font size 10px> 
+          </font>
+    <form>
+	<table border="3">
+  <tr>
+    <th>product name</th>
+<th>type</th>
+    <th>price </th>
+  </tr>
+  <tr>
+    <td>sandwich</td>
+    <td> 
+      <label></label>
+      <input type="radio" name=""><label>veg</label><br>
+    <input type="radio" name=""><label>chicken</label><br>
+    <br>
+  </td>
+    <td>rs.200<p>rs.250</p></td>
+  </form>
+</tr>
+  <tr>
+    <form>
+      <td>pizza</td>
+      <td>
+        <input type="radio" name=""><label>veg</label><br>
+    <input type="radio" name=""><label>chicken</label><br>
+  </td>
+    <td>rs400<p>rs.550</p></td>
+    </td>
+  </form>
+  </tr>
+  <form>
+   <td>soup</td>
+    <td>
+      <input type="radio" name="size"><label> mix-veg</label><br> 
+    <input type="radio" name="size"><label>chicken</label><br>
+  </td>
+  <td>rs100<p> rs200 </p></td>
+</form>
+</table>
+ <button id="button"onclick= 'choose the product'>submit </button>
+	</body>
+	</html>
